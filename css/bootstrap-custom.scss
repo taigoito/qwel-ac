@@ -1,0 +1,24 @@
+@import "custom";
+@import "partial/bootstrap";
+
+.explore {
+	padding-bottom: 1px;
+	border-bottom: 1px solid $link-color;
+	color: $link-color;
+
+	&:hover {
+		border-color: $link-hover-color;
+		color: $link-hover-color;
+	}
+}
+
+.link-inline {
+  display: inline-block;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  text-decoration: underline !important;
+  
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
